@@ -1,5 +1,3 @@
-
-
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -11,9 +9,17 @@
 
 
 .flex-item{
-    color: brown;
+    color: white;
+    display: flex;
+    flex-direction: column;
     }
 
 .weather-block {
     background-color: lightskyblue;
+    padding: 4rem;
+  
+}
+
+.search-button {
+    margin-top: 2rem;
 }
