@@ -5,10 +5,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 
 .flex-item{
     color: brown;
-    color: blue;
+    }
+
+.weather-block {
+    background-color: lightskyblue;
 }
