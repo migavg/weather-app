@@ -27,8 +27,16 @@ body{
 
 .search-button {
     margin-top: 2rem;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: blue;
     color: aliceblue;
     outline: none;
+    height: 3rem;
+}
+
+.input-box {
+    border-radius: 10px;
+    border: none;
+    height: 3rem;
+    bor
 }
