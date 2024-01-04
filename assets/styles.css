@@ -40,7 +40,7 @@ body{
 
 .search-button:hover {
     background-color: rgb(41, 80, 131);
-    box-shadow:  -10px 25px 30px 1x  black;
+    transform: scale(1.1);
 }
 
 .input-box {
