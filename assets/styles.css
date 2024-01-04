@@ -1,5 +1,6 @@
 body{
     background-color: rgb(42, 91, 124) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .flex-container {
@@ -22,21 +23,30 @@ body{
     background-color: lightskyblue;
     padding: 4rem;
     border-radius: 20%;
+    box-shadow: -25px 25px 15px rgba(0, 0, 0, 0.178);
   
 }
 
 .search-button {
     margin-top: 2rem;
     border-radius: 10px;
-    background-color: blue;
+    background-color: rgb(60, 138, 228);
     color: aliceblue;
-    outline: none;
     height: 3rem;
+    font-size: 2rem;
+    border: none;
+    
+}
+
+.search-button:hover {
+    background-color: rgb(41, 80, 131);
+    box-shadow:  -10px 25px 30px 1x  black;
 }
 
 .input-box {
     border-radius: 10px;
     border: none;
     height: 3rem;
-    bor
+    font-size: large;
+    text-align: center;
 }
