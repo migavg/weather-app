@@ -52,3 +52,8 @@ body{
     font-size: large;
     text-align: center;
 }
+
+img {
+    height: 10%;
+    width: 15%;
+}
