@@ -41,7 +41,9 @@ body{
 .search-button:hover {
     background-color: rgb(41, 80, 131);
     transform: scale(1.1);
+    cursor: pointer;
 }
+
 
 .input-box {
     border-radius: 10px;
