@@ -5,7 +5,7 @@ const weatherBLOCK = document.getElementById("weatherBlock")
 
 function pullWeather()  {
 
-    consolee.log("test")
+    console.log("test")
 };
 
 
