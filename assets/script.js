@@ -3,5 +3,11 @@ const weatherBLOCK = document.getElementById("weatherBlock")
 
 
 
+function pullWeather()  {
 
-searchBTN.addEventListener(click, pullWeather);
+    consolee.log("test")
+};
+
+
+
+searchBTN.addEventListener("click", pullWeather);
