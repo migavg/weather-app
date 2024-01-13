@@ -27,6 +27,14 @@ body{
   
 }
 
+.weather-block-info {
+    background-color: lightskyblue;
+    padding: 4rem;
+    border-radius: 20%;
+    box-shadow: -25px 25px 15px rgba(0, 0, 0, 0.178);
+    margin-top: 3rem;
+}
+
 .search-button {
     margin-top: 2rem;
     border-radius: 10px;
