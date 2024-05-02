@@ -13,14 +13,21 @@ const weatherAPI = "https://api.openweathermap.org/data/2.5/weather?q=Phoenix&ap
 
     .then(function (data)
     {
-
-    
     console.log("test")
     console.log(data)
+
+    showWeather(data);
 }
 )
+
+
+
 };
 
+
+function showWeather(data) {
+    console.log(data.main.temp)
+}
 
 
 searchBTN.addEventListener("click", pullWeather);
