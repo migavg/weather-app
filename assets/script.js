@@ -29,7 +29,7 @@ function showWeather(data) {
 
     let currentTemp = document.createElement('p');
 
-    currentTemp.textContent = data.main.temp;
+    currentTemp.textContent = `Current Temperature ${data.main.temp}` ;
 
     weatherInfo.append(currentTemp);
 
