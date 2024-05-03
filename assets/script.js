@@ -1,5 +1,5 @@
 const searchBTN = document.getElementById("searchButton");
-const weatherBLOCK = document.getElementById("weatherBlock")
+const weatherInfo = document.getElementById("weatherInfo")
 
 
 
@@ -26,6 +26,14 @@ const weatherAPI = "https://api.openweathermap.org/data/2.5/weather?q=Phoenix&ap
 
 
 function showWeather(data) {
+
+    let currentTemp = document.createElement('p');
+
+    currentTemp.textContent = data.main.temp;
+
+    weatherInfo.append(currentTemp);
+
+
     console.log(data.main.temp)
 }
 
